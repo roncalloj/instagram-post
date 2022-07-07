@@ -1,0 +1,79 @@
+body {
+    margin-top: 100px;
+    background-color: black;
+}
+.flex {
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+#cuerpo {
+    align-items: center;
+}
+.posts {
+    justify-items: center;
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    margin: 15px;
+}
+.titulo-foto {
+    height: 10%;
+    align-items: center;
+    padding: 5px 15px;
+}
+.Ico{
+    width: 9%;
+}
+.InstaText{
+    width: 88%;
+}
+.Ico2 {
+    width: 3%;
+}
+.Ico2 a {
+    color: black;
+}
+.titulo-foto h3, h4{
+    margin: 0;
+}
+.titulo-foto h4 {
+	font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+}
+.div-image {
+    margin-bottom: 20px;
+}
+.downpost {
+    justify-content: space-between;
+}
+.socials {
+    display: block;
+    padding: 0px 25px;
+    height: 5%;
+    margin: 0 0 6%;
+}
+.socials a{
+    margin: 0px 1%;
+    color: red;
+  }
+.socials a:hover {
+    color: yellowgreen;
+}
+#right {
+    float: right;
+}
+.footer, .description{
+    margin-top: 3%;
+    padding: 0px 20px;
+}
+.footer footer {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+}
+.description p{
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
